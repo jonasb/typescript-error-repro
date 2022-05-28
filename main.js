@@ -1,4 +1,4 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const polyfill_1 = require("@js-temporal/polyfill");
-console.log('Time is ' + polyfill_1.Temporal.Now.instant().toLocaleString());
+const node_assert_1 = require("node:assert");
+(0, node_assert_1.equal)('Hello', 'He' + 'llo');
