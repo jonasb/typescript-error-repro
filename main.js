@@ -1,2 +1,2 @@
-import { equal } from 'node:assert';
-equal('Hello', 'He' + 'llo');
+import { Temporal } from '@js-temporal/polyfill';
+console.log('Time is now: ' + Temporal.Now.instant().toLocaleString());
